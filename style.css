@@ -23,9 +23,10 @@ body {
 .container {
   background: #3944f7;
   border: 0.2rem solid black;
-  width: 70%;
+  min-width: 60%;
   border-radius: 2rem;
   padding: 1rem;
+  margin:1rem;
 }
 
 .header-title {
@@ -64,10 +65,11 @@ label {
 #btn-check,
 #btn-next {
   border: none;
+  text-align: center;
   background: #fff;
   color: var(--primary-color);
   outline: none;
-  width: 20vw;
+  width: 40%;
   border-radius: 2rem;
   padding: 1rem 2rem;
   margin: auto;
